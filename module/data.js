@@ -12,7 +12,7 @@ const projectsData = [
     id: 2,
     title: "TO-DO List App",
     description: "Aplikasi web untuk mengelola daftar tugas harian dengan fitur penambahan, pengeditan, dan penghapusan tugas sederhana.",
-    techStack: ["Javascript", "CSS"],
+    techStack: ["HTML", "CSS", "Javascript"],
     githubLink: "https://github.com/username/repo-2",
     status: "Completed",
     startDate: "July 2025",
