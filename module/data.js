@@ -28,10 +28,10 @@ const interestsData = [
 ];
 
 const greetings = [
-  "Halo",
   "Hello",
-  "Bonjour",
+  "Halo",
   "Hola",
+  "Bonjour",
   "Ciao", 
   "Olá",
   "Konnichiwa",
