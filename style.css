@@ -586,6 +586,10 @@ h1 #greeting-text {
     border-color: var(--accent-color-primary);
 }
 
+.contact-form textarea {
+    resize: none;
+}
+
 .contact-form .cta-button {
     width: 100%;
 }
