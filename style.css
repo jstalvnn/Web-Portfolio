@@ -4,6 +4,28 @@
     box-sizing: border-box;
 }
 
+::selection {
+    /* 1. Latar belakang transparan (Cyan kebiruan) */
+    background-color: rgba(48, 48, 48, 0.2); 
+    
+    /* 2. Warna teks menjadi putih terang */
+    color: #fff;
+    
+    /* 3. Text-shadow untuk membuat efek "Bloody/Liquid" atau "Glow"
+        Format: X-offset Y-offset Blur-radius Color */
+    text-shadow: 
+        /*0 0 5px rgba(255, 255, 255, 0.8),  /* Glow lapisan pertama */
+        0 0 15px rgba(255, 255, 255, 0.5); /* Glow lapisan kedua (lebih lebar) */
+}
+
+::-moz-selection {
+    background-color: rgba(0, 255, 255, 0.2);
+    color: #fff;
+    text-shadow: 
+        0 0 5px rgba(0, 255, 255, 0.8),
+        0 0 15px rgba(0, 255, 255, 0.5);
+}
+
 :root {
     --bg-color-dark: #121212;
     --bg-color-light: #1E1E1E;
